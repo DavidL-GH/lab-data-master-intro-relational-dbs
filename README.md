@@ -34,10 +34,10 @@ Reflexionar sobre cómo se organizan los datos en el mundo real y comenzar a pen
 | 1001        | Alicia Gómez     | Finanzas       | Portal Cliente      |
 
 2. Responde:
-   - ¿Qué información parece repetirse?
-   - ¿Qué datos podrían separarse en distintas tablas?
-   - ¿Qué columnas podrían servir como identificadores únicos (claves primarias)?
-   - ¿Qué relaciones ves entre los datos?
+   - ¿Qué información parece repetirse? El proyecto que puede tener cada empleado
+   - ¿Qué datos podrían separarse en distintas tablas? Empleado, Departamento, Proyectos, y Empleado_vs_Proyecto 
+   - ¿Qué columnas podrían servir como identificadores únicos (claves primarias)?Id_empleado, id_departamento, id_proyecto
+   - ¿Qué relaciones ves entre los datos?Id_empleado-id_departamento
 
 > ✅ **Entregable**: Esquema escrito a mano o digital con las entidades detectadas y relaciones sugeridas (puedes usar [https://dbdiagram.io](https://dbdiagram.io)).
 
